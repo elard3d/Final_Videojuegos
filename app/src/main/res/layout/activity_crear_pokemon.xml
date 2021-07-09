@@ -99,7 +99,7 @@
         app:layout_constraintVertical_bias="0.579" />
 
     <Button
-        android:id="@+id/btnFotoPokemon2"
+        android:id="@+id/btnCancelarCrear"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="CANCELAR"
@@ -127,7 +127,7 @@
         app:layout_constraintVertical_bias="0.739" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName"
+        android:id="@+id/txtNombreCrear"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
@@ -140,7 +140,7 @@
         app:layout_constraintVertical_bias="0.202" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName2"
+        android:id="@+id/txtTipoCrear"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
@@ -153,7 +153,7 @@
         app:layout_constraintVertical_bias="0.29" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName3"
+        android:id="@+id/txtLatitudCrear"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
@@ -166,7 +166,7 @@
         app:layout_constraintVertical_bias="0.392" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName4"
+        android:id="@+id/txtLongitudCrear"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"

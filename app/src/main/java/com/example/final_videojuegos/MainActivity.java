@@ -44,6 +44,14 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        btnPokemons.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, ListaPokemonsActivity.class);
+                startActivity(intent);
+            }
+        });
+
 
 
     }

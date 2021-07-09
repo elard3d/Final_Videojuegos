@@ -48,7 +48,7 @@ public class EntrenadorDetalleActivity extends AppCompatActivity {
                 if(response.code()==200){
                     TextView nombres = findViewById(R.id.txtNombreDetalle);
                     TextView pueblo = findViewById(R.id.txtPuebloDetalle);
-                    ImageView imagen = findViewById(R.id.ImagenDetalle);
+                    ImageView imagen = findViewById(R.id.ImagenPokemon);
 
                     nombres.setText(response.body().nombres);
                     pueblo.setText(response.body().pueblo);

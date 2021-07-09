@@ -4,8 +4,8 @@ public class Pokemon {
     public String nombre;
     public String tipo;
     public String imagen;
-    public String latitud;
-    public String longitud;
+    public String latitude;
+    public String longitude;
 
     public String getNombre() {
         return nombre;
@@ -32,19 +32,19 @@ public class Pokemon {
     }
 
     public String getLatitud() {
-        return latitud;
+        return latitude;
     }
 
     public void setLatitud(String latitud) {
-        this.latitud = latitud;
+        this.latitude = latitud;
     }
 
     public String getLongitud() {
-        return longitud;
+        return longitude;
     }
 
     public void setLongitud(String longitud) {
-        this.longitud = longitud;
+        this.longitude = longitud;
     }
 }
 

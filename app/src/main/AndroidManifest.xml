@@ -2,10 +2,9 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.final_videojuegos">
 
-
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 
     <application
         android:allowBackup="true"
@@ -14,7 +13,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Final_Videojuegos">
-        <activity android:name=".CrearPokemonActivity"></activity>
+        <activity android:name=".ListaPokemonsActivity"></activity>
+        <activity android:name=".CrearPokemonActivity" />
         <activity android:name=".EntrenadorRegistroActivity" />
         <activity android:name=".EntrenadorDetalleActivity" />
         <activity android:name=".MainActivity">

@@ -10,8 +10,8 @@ import retrofit2.http.GET;
 import retrofit2.http.POST;
 
 public interface EntrenadorService {
-    @GET("entrenador/111")
+    @GET("entrenador/720013")
     Call<Entrenador> getEntrenadorCall();
-    @POST("entrenador/111")
+    @POST("entrenador/720013")
     Call<Entrenador> postEntrenadorCall(@Body Entrenador entrenador);
 }

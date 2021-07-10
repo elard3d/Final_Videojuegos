@@ -10,10 +10,10 @@ import retrofit2.http.GET;
 import retrofit2.http.POST;
 
 public interface PokemonService {
-    @GET("pokemons/111/")
+    @GET("pokemons/720013/")
     Call <List<Pokemon>> getPokemonAllCall();
-    @GET("pokemons/111/")
+    @GET("pokemons/720013/")
     Call<Pokemon> getPokemonCall();
-    @POST("pokemons/111/crear")
+    @POST("pokemons/720013/crear")
     Call<Pokemon> postPokemonCall(@Body Pokemon pokemon);
 }

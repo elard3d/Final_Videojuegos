@@ -24,8 +24,6 @@ import retrofit2.converter.gson.GsonConverterFactory;
 
 public class EntrenadorRegistroActivity extends AppCompatActivity {
 
-    final private int REQUEST_CODE_ASK_PERMISION = 111;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
